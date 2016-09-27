@@ -36,7 +36,7 @@ module.exports = {
 		"max-params": ["warn", { max: 4 }],
 		"no-trailing-spaces": ["error"],
 		"no-whitespace-before-property": ["error"],
-		"filenames/match-regex": ["error", "^[a-z\\-\\.]+$"],
+		"filenames/match-regex": ["error", "^[a-z\-\.]+$"],
 		"prefer-template": ["warn"],
 		"space-before-blocks": ["error", "always"],
 		"spaced-comment": ["error", "always"],
