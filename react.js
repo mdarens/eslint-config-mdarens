@@ -13,6 +13,10 @@ module.exports = {
 
 		// ERRORS
 
+		// use double quotes like a gentleman (or a lady)
+		// http://eslint.org/docs/rules/jsx-quotes
+		"jsx-quotes": ["error", "prefer-double"],
+
 		// don't write components like a n00b
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
 		"react/prefer-stateless-function": ["error"],
