@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-civicsource",
+  "description": "Shareable ESLint configuration to be used in CivicSource client applications",
+  "main": "index.js",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/civicsource/eslint-config-civicsource.git"
+  },
+  "author": "Archon Information Systems",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "civicsource"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.x",
+    "eslint-plugin-filenames": "1.x",
+    "eslint-plugin-jsx-a11y": "2.x",
+    "eslint-plugin-react": "6.x"
+  }
+}
