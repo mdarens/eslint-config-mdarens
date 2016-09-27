@@ -25,5 +25,6 @@ When making changes to this repo, be sure to [follow semantic versioning](http:/
 
 * Any new _error_ rules you add should be a major version bump.
 * Any more restrictive changes to existing _error_ rules should be a major version bump.
+* Any easing of restrictions to existing _error_ rules can be a minor version bump.
 * Any addition or changes to _warning_ rules should be a minor version bump.
 * Any bug fixes should be a patch version bump. 
