@@ -19,9 +19,29 @@ extends:
   - civicsource
 ```
 
-## Versioning
+You could also choose to only import the style rules:
 
-When making changes to this repo, be sure to [follow semantic versioning](http://semver.org/).
+```yaml
+extends:
+  - civicsource/style
+```
+
+or only the react rules:
+
+```yaml
+extends:
+  - civicsource/react
+```
+
+or a mixture of both.
+
+## Contributing
+
+When adding rules or plugins, put them into the correct js file based on category (e.g. add react rules to `react.js`). Make sure to add a small comment explaining what the rule does (feel free to be as snarky as possible) along with a link to the rule documentation.
+
+### Versioning
+
+When making changes, be sure to [follow semantic versioning](http://semver.org/).
 
 * Any new _error_ rules you add should be a major version bump.
 * Any more restrictive changes to existing _error_ rules should be a major version bump.
