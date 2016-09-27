@@ -17,7 +17,7 @@
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "devDependencies": {
+  "dependencies": {
     "babel-eslint": "7.x",
     "eslint-plugin-filenames": "1.x",
     "eslint-plugin-jsx-a11y": "2.x",
