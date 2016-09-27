@@ -8,7 +8,7 @@ module.exports = {
 	},
 	extends: [
 		"eslint:recommended",
-		"civicsource/style"
+		"civicsource/style",
 		"civicsource/react"
 	],
 	parserOptions: {
