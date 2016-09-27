@@ -18,3 +18,12 @@ Add to your `.eslintrc.yml`:
 extends:
   - civicsource
 ```
+
+## Versioning
+
+When making changes to this repo, be sure to [follow semantic versioning](http://semver.org/).
+
+* Any new _error_ rules you add should be a major version bump.
+* Any more restrictive changes to existing _error_ rules should be a major version bump.
+* Any addition or changes to _warning_ rules should be a minor version bump.
+* Any bug fixes should be a patch version bump. 
