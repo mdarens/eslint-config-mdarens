@@ -62,6 +62,14 @@ module.exports = {
 		// https://github.com/selaux/eslint-plugin-filenames
 		"filenames/match-regex": ["error", "^[a-z\-\.]+$"],
 
+		// don't concatenate strings like a n00b
+		// http://eslint.org/docs/rules/prefer-template
+		"prefer-template": ["error"],
+
+		// force curly braces for control-flow blocks unless it is single line
+		// http://eslint.org/docs/rules/curly
+		"curly": ["error", "multi-line"],
+
 		// =======================================================================================
 		// WARNINGS
 
@@ -71,14 +79,6 @@ module.exports = {
 
 		// don't make ridiculous functions that take billions upon billions of arguments
 		// http://eslint.org/docs/rules/max-params
-		"max-params": ["warn", { max: 4 }],
-
-		// don't concatenate strings like a n00b
-		// http://eslint.org/docs/rules/prefer-template
-		"prefer-template": ["warn"],
-
-		// force curly braces for control-flow blocks unless it is single line
-		// http://eslint.org/docs/rules/curly
-		"curly": ["warn", "multi-line"]
+		"max-params": ["warn", { max: 4 }]
 	}
 };
