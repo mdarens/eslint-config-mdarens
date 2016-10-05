@@ -75,6 +75,10 @@ module.exports = {
 
 		// don't concatenate strings like a n00b
 		// http://eslint.org/docs/rules/prefer-template
-		"prefer-template": ["warn"]
+		"prefer-template": ["warn"],
+
+		// force curly braces for control-flow blocks unless it is single line
+		// http://eslint.org/docs/rules/curly
+		"curly": ["warn", "multi-line"]
 	}
 };
