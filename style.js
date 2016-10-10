@@ -7,7 +7,7 @@ module.exports = {
 
 		// we indent with tabs not spaces because we aren't a roving band of marauders
 		// http://eslint.org/docs/rules/indent
-		"indent": ["error", "tab"],
+		"indent": ["error", "tab", { SwitchCase: 1 }],
 
 		// enforce double quotes for strings
 		// http://eslint.org/docs/rules/quotes
