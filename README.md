@@ -33,7 +33,14 @@ extends:
   - civicsource/react
 ```
 
-or a mixture of both.
+or only the [flow](https://flowtype.org/) rules:
+
+```yaml
+extends:
+  - civicsource/flow
+```
+
+or a mixture.
 
 ## Contributing
 

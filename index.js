@@ -9,7 +9,8 @@ module.exports = {
 	extends: [
 		"eslint:recommended",
 		"civicsource/style",
-		"civicsource/react"
+		"civicsource/react",
+		"civicsource/flow"
 	],
 	parserOptions: {
 		ecmaFeatures: {
