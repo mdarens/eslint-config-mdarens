@@ -8,6 +8,7 @@ module.exports = {
 	},
 	extends: [
 		"eslint:recommended",
+		"civicsource/syntax",
 		"civicsource/style",
 		"civicsource/react",
 		"civicsource/flow"
