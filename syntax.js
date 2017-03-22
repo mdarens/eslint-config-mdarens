@@ -1,12 +1,15 @@
 module.exports = {
-	plugins: [
-		"require-in-package"
+	extends: [
+		"plugin:import/errors"
 	],
-	rules: {
-		// ERRORS
-
-		// depend on the things you depend on
-		// https://github.com/Craftsy/eslint-plugin-require-in-package
-		"require-in-package/require-in-package": "error"
+	plugins: [
+		"import"
+	],
+	settings: {
+		"import/resolver": {
+			"node": {
+				"extensions": [".js", ".jsx", ".json"]
+			}
+		}
 	}
 };
