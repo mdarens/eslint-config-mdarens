@@ -13,10 +13,6 @@ module.exports = {
 
 		// ERRORS
 
-		// use double quotes like a gentleman (or a lady)
-		// http://eslint.org/docs/rules/jsx-quotes
-		"jsx-quotes": ["error", "prefer-double"],
-
 		// don't write components like a n00b
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
 		"react/prefer-stateless-function": ["error"],
@@ -24,10 +20,6 @@ module.exports = {
 		// don't write components like a n00b
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
 		"react/prefer-es6-class": ["error", "always"],
-
-		// wrap multiline jsx in parens
-		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md
-		"react/jsx-wrap-multilines": ["error"],
 
 		// put stuff in order
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
@@ -40,26 +32,6 @@ module.exports = {
 		// don't use bools like a n00b
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
 		"react/jsx-boolean-value": ["error", "never"],
-
-		// indent components like sane human
-		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
-		"react/jsx-indent": ["error", "tab"],
-
-		// indent props like a sane human
-		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-		"react/jsx-indent-props": ["error", "tab"],
-
-		// don't be weird about spaces for jsx props
-		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
-		"react/jsx-curly-spacing": ["error", "never"],
-
-		// don't be weird about spacing around equal signs in jsx props
-		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
-		"react/jsx-equals-spacing": ["error", "never"],
-
-		// put a space at the end of your component - THINK OF THE CHILDREN
-		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-		"react/jsx-space-before-closing": ["error"],
 
 		// don't waste half a day debugging because you decided to use an array index to key a list
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
