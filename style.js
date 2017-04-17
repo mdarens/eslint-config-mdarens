@@ -19,6 +19,10 @@ module.exports = {
 		// http://eslint.org/docs/rules/prefer-template
 		"prefer-template": ["error"],
 
+		// put a space after the comment slashes
+		// http://eslint.org/docs/rules/spaced-comment
+		"spaced-comment": ["error", "always"],
+
 		// =======================================================================================
 		// WARNINGS
 
