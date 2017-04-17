@@ -11,7 +11,8 @@ module.exports = {
 		"civicsource/syntax",
 		"civicsource/style",
 		"civicsource/react",
-		"civicsource/flow"
+		"civicsource/flow",
+		"civicsource/mocha"
 	],
 	parserOptions: {
 		ecmaFeatures: {
