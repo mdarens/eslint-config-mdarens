@@ -11,6 +11,10 @@ module.exports = {
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
 		"react/prop-types": ["off"],
 
+		// this shit just don't work and doesn't really help IMO anyway...
+		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md
+		"react/no-unescaped-entities": ["off"],
+
 		// ERRORS
 
 		// don't write components like a n00b

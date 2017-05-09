@@ -22,10 +22,10 @@
     "eslint-plugin-filenames": "1.x",
     "eslint-plugin-flowtype": "2.x",
     "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "2.x",
+    "eslint-plugin-jsx-a11y": "5.x",
     "eslint-plugin-mocha": "4.x",
     "eslint-plugin-prettier": "2.x",
-    "eslint-plugin-react": "6.x",
+    "eslint-plugin-react": "7.x",
     "prettier": "1.x"
   }
 }
