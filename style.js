@@ -23,6 +23,10 @@ module.exports = {
 		// http://eslint.org/docs/rules/spaced-comment
 		"spaced-comment": ["error", "always"],
 
+		// force curly braces for control-flow blocks unless it is single line
+		// http://eslint.org/docs/rules/curly
+		"curly": ["error", "multi-line", "consistent"],
+
 		// =======================================================================================
 		// WARNINGS
 
