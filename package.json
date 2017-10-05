@@ -2,7 +2,7 @@
   "name": "eslint-config-civicsource",
   "description": "Shareable ESLint configuration to be used in CivicSource client applications",
   "main": "index.js",
-  "version": "6.1.0",
+  "version": "0.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/civicsource/eslint-config-civicsource.git"
@@ -27,5 +27,8 @@
     "eslint-plugin-prettier": "2.x",
     "eslint-plugin-react": "7.x",
     "prettier": "1.x"
+  },
+  "devDependencies": {
+    "json-update": "^3.0.0"
   }
 }
