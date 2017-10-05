@@ -5,7 +5,7 @@ module.exports = {
 	settings: {
 		"import/resolver": {
 			"node": {
-				"extensions": [".js", ".jsx", ".json"]
+				"extensions": [".js", ".jsx", ".json", ".mjs"]
 			}
 		}
 	},
@@ -64,7 +64,7 @@ module.exports = {
 
 		// we don't need no stinkin` extensions, except ya know, sometimes
 		// https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
-		"import/extensions": ["error", "always", { "js": "never", "jsx": "never", "json": "never" }],
+		"import/extensions": ["error", "always", { "js": "never", "jsx": "never", "json": "never", "mjs": "never" }],
 
 		// put some damn space between your code and your imports
 		// https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
