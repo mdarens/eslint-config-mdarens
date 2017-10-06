@@ -4,6 +4,7 @@ module.exports = {
 	],
 	plugins: [
 		"react",
+		"react-functional-set-state",
 		"jsx-a11y"
 	],
 	rules: {
@@ -16,6 +17,10 @@ module.exports = {
 		"react/no-unescaped-entities": ["off"],
 
 		// ERRORS
+
+		// don't reference this.props or this.state from within a setState call,
+		// what are you some kind of maniac?!?
+		"react-functional-set-state/no-this-state-props": ["error"],
 
 		// don't write components like a n00b
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
