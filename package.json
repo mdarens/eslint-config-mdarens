@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-civicsource",
-  "description": "Shareable ESLint configuration to be used in CivicSource client applications",
+  "description": "Shareable ESLint configuration to used in CivicSource client applications",
   "main": "index.js",
   "version": "0.0.0",
   "repository": {
@@ -14,21 +14,22 @@
     "eslintconfig",
     "civicsource"
   ],
-  "peerDependencies": {
-    "eslint": "5.x"
-  },
-  "devDependencies": {
-    "prettier": "1.x"
-  },
   "dependencies": {
     "babel-eslint": "10.x",
+    "eslint-config-prettier": "^3.6.0",
     "eslint-plugin-filenames": "1.x",
-    "eslint-plugin-flowtype": "2.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-mocha": "5.x",
     "eslint-plugin-prettier": "3.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-functional-set-state": "1.x"
+  },
+  "peerDependencies": {
+    "eslint": "5.x"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "prettier": "1.x"
   }
 }

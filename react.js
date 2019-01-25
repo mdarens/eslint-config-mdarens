@@ -8,7 +8,7 @@ module.exports = {
 		"jsx-a11y"
 	],
 	rules: {
-		// we don't use propTypes, we use flow (at least theoretically)
+		// we don't use propTypes
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
 		"react/prop-types": ["off"],
 

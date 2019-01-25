@@ -5,8 +5,8 @@ module.exports = {
 		"civicsource/imports",
 		"civicsource/style",
 		"civicsource/react",
-		"civicsource/flow",
-		"civicsource/mocha"
+		"civicsource/mocha",
+		"prettier" // this should always be last
 	],
 	parserOptions: {
 		ecmaFeatures: {
