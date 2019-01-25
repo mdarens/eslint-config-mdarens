@@ -19,21 +19,28 @@ extends:
   - civicsource
 ```
 
-You could also choose to only import the style rules:
+This includes all civicsource rules (except the testing rules). You could also choose to include them individually:
 
 ```yaml
 extends:
   - civicsource/style
+  - civicsource/react
+  - civicsource/imports
 ```
 
-or only the react rules:
+The testing rules are not included by default and can be included via:
 
 ```yaml
 extends:
-  - civicsource/react
+  - civicsource/mocha
 ```
 
-or a mixture.
+or
+
+```yaml
+extends:
+  - civicsource/jest
+```
 
 ## Contributing
 

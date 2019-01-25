@@ -5,7 +5,6 @@ module.exports = {
 		"civicsource/imports",
 		"civicsource/style",
 		"civicsource/react",
-		"civicsource/mocha",
 		"prettier" // this should always be last
 	],
 	parserOptions: {
