@@ -13,7 +13,7 @@ module.exports = {
 		// enforce lowercase kebab case for filenames
 		// we have had issues in the past with case sensitivity & module resolution
 		// https://github.com/selaux/eslint-plugin-filenames
-		"filenames/match-regex": ["error", "^[a-z\-\.]+$"],
+		"filenames/match-regex": ["error", "^[a-z0-9\-\.]+$"],
 
 		// don't concatenate strings like a n00b
 		// http://eslint.org/docs/rules/prefer-template
