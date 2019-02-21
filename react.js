@@ -5,6 +5,7 @@ module.exports = {
 	plugins: [
 		"react",
 		"react-functional-set-state",
+		"react-hooks",
 		"jsx-a11y"
 	],
 	rules: {
@@ -85,6 +86,10 @@ module.exports = {
 
 		// make sure those keyboard people are happy
 		// https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/click-events-have-key-events.md
-		"jsx-a11y/click-events-have-key-events": ["warn"]
+		"jsx-a11y/click-events-have-key-events": ["warn"],
+
+		// https://reactjs.org/docs/hooks-rules.html
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps":"error"
 	}
 };
