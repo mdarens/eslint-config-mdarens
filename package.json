@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/civicsource/eslint-config-civicsource.git"
+    "url": "https://github.com/mdarens/eslint-config-mdarens.git"
   },
   "author": "Archon Information Systems",
   "license": "MIT",
