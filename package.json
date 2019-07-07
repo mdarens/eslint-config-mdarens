@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/mdarens/eslint-config-mdarens.git"
   },
-  "author": "Archon Information Systems",
+  "author": "mdarens",
   "license": "MIT",
   "keywords": [
     "eslint",
