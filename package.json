@@ -30,7 +30,7 @@
     "eslint": "5.x"
   },
   "devDependencies": {
-    "eslint": "^5.12.1",
-    "prettier": "^1.16.4"
+    "eslint": "6.x",
+    "prettier": "1.x"
   }
 }
