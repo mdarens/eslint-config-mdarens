@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-civicsource",
-  "description": "Shareable ESLint configuration to used in CivicSource client applications",
+  "name": "eslint-config-mdarens",
+  "description": "Shareable ESLint configuration",
   "main": "index.js",
   "version": "0.0.0",
   "repository": {
@@ -11,8 +11,7 @@
   "license": "MIT",
   "keywords": [
     "eslint",
-    "eslintconfig",
-    "civicsource"
+    "eslintconfig"
   ],
   "dependencies": {
     "babel-eslint": "10.x",
