@@ -2,9 +2,9 @@ module.exports = {
 	parser: "babel-eslint",
 	extends: [
 		"eslint:recommended",
-		"civicsource/imports",
-		"civicsource/style",
-		"civicsource/react",
+		"mdarens/imports",
+		"mdarens/style",
+		"mdarens/react",
 		"prettier" // this should always be last
 	],
 	parserOptions: {
