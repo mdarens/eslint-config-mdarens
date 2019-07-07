@@ -1,6 +1,6 @@
 # CivicSource ESLint Configuration
 
-> Shareable ESLint configuration to be used in CivicSource client applications
+> Shareable ESLint configuration
 
 [Read more](http://eslint.org/docs/developer-guide/shareable-configs) in general about how eslint shareable configurations work.
 
@@ -16,30 +16,30 @@ Add to your `.eslintrc.yml`:
 
 ```yaml
 extends:
-  - civicsource
+  - mdarens
 ```
 
-This includes all civicsource rules (except the testing rules). You could also choose to include them individually:
+This includes all rules (except the testing rules). You could also choose to include them individually:
 
 ```yaml
 extends:
-  - civicsource/style
-  - civicsource/react
-  - civicsource/imports
+  - mdarens/style
+  - mdarens/react
+  - mdarens/imports
 ```
 
 The testing rules are not included by default and can be included via:
 
 ```yaml
 extends:
-  - civicsource/mocha
+  - mdarens/mocha
 ```
 
 or
 
 ```yaml
 extends:
-  - civicsource/jest
+  - mdarens/jest
 ```
 
 ## Contributing
